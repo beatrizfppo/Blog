@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f5f7;
+    color: #e2e8f0;
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(90deg, #50319e 0%, #302061 100%);
+    padding: 40px 120px;
+}
+
+/* 
+.header-content {
+    display: flex;justify-content: space-between;
+    align-items: center;
+}  */
+
+.header-content a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 2cm;
+    margin: 0;
+}
+
+.barraPesquisa {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.barraPesquisa input {
+    background-color: transparent;
+    border: none;
+    width: 95%;
+    color: white;
+    padding: 8px;
+}
+
+.barraPesquisa input::placeholder {
+    color: white;
+}
+
+.barraPesquisa .search-icon {
+    color: #a0aec0;
+    padding: 5px;
+}
+
+main {
+    padding: 30px 120px;
+}
+
+.artigos {
+    display: flex;
+    padding: 40px 120px;
+    gap: 40px;
+    flex-wrap: wrap;
+
+    margin-top: 200px;
+    margin: 120px;
+    
+    background-color: #2d3748;
+    border-radius: 20px;
+    box-shadow: #b5c1d6;
+}
+
+.artigos a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
