@@ -4,85 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog SENAI</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 </head>
-
-<link rel="stylesheet" href="./css/style.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
 <body>
-
-    <header class="header">
-
-        <nav class="header-content">
-            <div class="inicio">
+    <header>
+            <nav class="header-content">
                 <h1>SENAI</h1>
-                <a href="#">Blog</a>
-            </div>
-            <div class="barraPesquisa">
-                <span class="search-icon">🔎</span>
+                <ul>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <span>🔎</span>
                 <input type="text" placeholder="Pesquisar no blog">
             </div>
-        </nav>
-        
     </header>
 
     <main>
-        <article class="artigos">
-            <a href="./noticias.html">
-            <div class="top">
-                <p>data</p>
-                <span>❤️</span>
-            </div>
-           
-            
-            <h2 class="h2">titulo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi commodi fuga recusandae, officia dolor consequatur tempore omnis ipsum sapiente animi hic eum repudiandae corrupti et vero eveniet. Nemo, corrupti est?</p>
-        </a>
-        </article>
+        <section class="articles">
+            <articles class="articles-card">
+                <a href="./noticias.html" class="">
+                    <div class="article-header">
+                        <p class="date">19 de Ago, 2025</p>
+                        <button class="btn-curtir">
+                            <span>❤️</span>
+                        </button>
+                    </div>
+                    <h2 class="article-title">Agora é oficial: o Windows 11 está vindo</h2>
+                    <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                </a>
+            </articles>
 
-        <article class="artigos">
-            <a href="./noticias.html">
-            <div class="top">
-                <p>data</p>
-                <span>❤️</span>
-            </div>
-           
-            
-            <h2 class="h2">titulo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi commodi fuga recusandae, officia dolor consequatur tempore omnis ipsum sapiente animi hic eum repudiandae corrupti et vero eveniet. Nemo, corrupti est?</p>
-        </a>
-        </article>
+            <articles class="articles-card">
+                <a href="./noticias.html" class="">
+                    <div class="article-header">
+                        <p class="date">19 de Ago, 2025</p>
+                        <button class="btn-curtir">
+                            <span>❤️</span>
+                        </button>
+                    </div>
+                    <h2 class="article-title">Tim Berners-Lee vai leiloar código-fonte da web</h2>
+                    <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+                </a>
+            </articles>
 
-        <article class="artigos">
-            <a href="./noticias.html">
-            <div class="top">
-                <p>data</p>
-                <span>❤️</span>
-            </div>
-           
-            
-            <h2 class="h2">titulo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi commodi fuga recusandae, officia dolor consequatur tempore omnis ipsum sapiente animi hic eum repudiandae corrupti et vero eveniet. Nemo, corrupti est?</p>
-        </a>
-        </article>
+            <articles class="articles-card">        
+                <a href="./noticias.html" class="">
+                    <div class="article-header">
+                        <p class="date">19 de Ago, 2025</p>
+                        <button class="btn-curtir">
+                            <span>❤️</span>
+                        </button>
+                    </div>
+                    <h2 class="article-title">Tem Firefox novo no pedaço e você vai querer migrar</h2>
+                    <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+                </a>
+            </articles>
 
-        <article class="artigos">
-            <a href="./noticias.html">
-            <div class="top">
-                <p>data</p>
-                <span>❤️</span>
-            </div>
-           
-            
-            <h2 class="h2">titulo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi commodi fuga recusandae, officia dolor consequatur tempore omnis ipsum sapiente animi hic eum repudiandae corrupti et vero eveniet. Nemo, corrupti est?</p>
-        </a>
-        </article>
-
+            <articles class="articles-card">
+                <a href="./noticias.html" class="">
+                    <div class="article-header">
+                        <p class="date">19 de Ago, 2025</p>
+                        <button class="btn-curtir">
+                            <span>❤️</span>
+                        </button>
+                    </div>
+                    <h2 class="article-title">John McAfee, criador do antivírus McAfee, morre</h2>
+                    <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+                </a>
+            </articles>
+        </section>
+        
     </main>
-    
 </body>
 </html>
